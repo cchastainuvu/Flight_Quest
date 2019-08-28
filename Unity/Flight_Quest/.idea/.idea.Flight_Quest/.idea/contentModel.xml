@@ -46,12 +46,14 @@
           <e p="ScriptableObjects" t="Include">
             <e p="Bool_Data.cs" t="Include" />
             <e p="Clothing_Object.cs" t="Include" />
+            <e p="Debug_Object.cs" t="Include" />
             <e p="Float_Data.cs" t="Include" />
             <e p="GameObject_Data.cs" t="Include" />
             <e p="Int_Data.cs" t="Include" />
             <e p="Name_ID.cs" t="Include" />
             <e p="Weather_Ints_Object.cs" t="Include" />
           </e>
+          <e p="Tilt_Event.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
           <e p="Tutorial_Manager.cs" t="Include" />
         </e>
