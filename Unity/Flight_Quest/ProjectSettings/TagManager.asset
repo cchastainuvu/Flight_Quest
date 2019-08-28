@@ -12,6 +12,11 @@ TagManager:
   - NonLocalPlayer
   - LeftController
   - RightController
+  - Packing_Items
+  - Floor
+  - Cap
+  - Liquid
+  - Cereal
   layers:
   - Default
   - TransparentFX

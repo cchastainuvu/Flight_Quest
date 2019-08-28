@@ -2,31 +2,51 @@
 using System.Collections.Generic;
 using System.Runtime.Serialization.Json;
 using UnityEngine;
+using UnityEngine.Events;
+using UnityEngine.UI;
 
 public class Tutorial_Manager : MonoBehaviour
 {
-    public Bool_Data Suitcase_Closed;
+    public Bool_Data Suitcase_Closed, Made_Breakfast, Answered_Phone, Suitcase_Packed;
+    public Text Instructions_Text;
     public Weather_Ints_Object weather_tutorial;
-    public GameObject_Data obj;
+    public GameObject_Data Obj;
     private Clothing_Object clothing_obj;
     private float tempScale;
+    private List<string> ObjectsInCase;
 
+    private void Start()
+    {
+        ObjectsInCase = new List<string>();
+        weather_tutorial.Cold.value = 0;
+        weather_tutorial.Hot.value = 0;
+        weather_tutorial.Warm.value = 0;
+        weather_tutorial.Rain.value = 0;
+        weather_tutorial.Snow.value = 0;
+
+    }
 
     public void AddObj()
     {
-        if (obj.obj == null || obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
+        if (Obj.obj == null || Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
         {
+            ObjectsInCase.Add(Obj.Name);
             return;
         } 
-        clothing_obj = obj.obj.GetComponent<Scriptable_Object_Holder>().obj as Clothing_Object;
+        clothing_obj = Obj.obj.GetComponent<Scriptable_Object_Holder>().obj as Clothing_Object;
+        ObjectsInCase.Add(Obj.Name);
         AddWeatherAttributes(clothing_obj);
     }
 
     public void RemoveObj()
     {
-        if (obj.obj == null || obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
+        if (Obj.obj == null || Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
+        {
+            ObjectsInCase.Remove(Obj.Name);
             return;
-        clothing_obj = obj.obj.GetComponent<Scriptable_Object_Holder>().obj as Clothing_Object;
+        }
+        clothing_obj = Obj.obj.GetComponent<Scriptable_Object_Holder>().obj as Clothing_Object;
+        ObjectsInCase.Remove(Obj.Name);
         SubWeatherAttributes(clothing_obj);
     }
 
@@ -116,5 +136,27 @@ public class Tutorial_Manager : MonoBehaviour
         }
     }
     
+    public void SetInstructions()
+    {
+        if(Suitcase_Packed.value && Answered_Phone.value)
+        {
+            Instructions_Text.text = "Leave for Work";
+        }
+        else if (Answered_Phone.value)
+        {
+            Instructions_Text.text = "Pack bag";
+        }
+        else if (Made_Breakfast.value)
+        {
+            Instructions_Text.text = "Answer up phone";
+        }
+        else
+        {
+            Instructions_Text.text = "Make Breakfast";
+        }
+    }
+
+
+
     
 }

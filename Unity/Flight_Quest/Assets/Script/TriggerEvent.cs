@@ -13,7 +13,7 @@ public class TriggerEvent : MonoBehaviour
     {
         if (other.CompareTag(tagtocompare))
         {
-            objcollider.obj = other.gameObject;
+            objcollider.SetObj(other.transform);
             Enter.Invoke();
         }
     }
@@ -22,8 +22,17 @@ public class TriggerEvent : MonoBehaviour
     {
         if (other.CompareTag(tagtocompare))
         {
-            objcollider.obj = other.gameObject;
+            objcollider.SetObj(other.transform);
             Stay.Invoke();
+        }
+    }
+
+    private void OnParticleCollision(GameObject other)
+    {
+        if (other.CompareTag(tagtocompare))
+        {
+            objcollider.SetObj(other.transform);
+            Enter.Invoke();
         }
     }
 
@@ -31,7 +40,7 @@ public class TriggerEvent : MonoBehaviour
     {
         if (other.CompareTag(tagtocompare))
         {
-            objcollider.obj = other.gameObject;
+            objcollider.SetObj(other.transform);
             Exit.Invoke();
         }
     }
