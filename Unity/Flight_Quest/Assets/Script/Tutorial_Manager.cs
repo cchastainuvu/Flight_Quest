@@ -28,7 +28,9 @@ public class Tutorial_Manager : MonoBehaviour
 
     public void AddObj()
     {
-        if (Obj.obj == null || Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
+        if (Obj.obj == null)
+            return;
+        else if (Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
         {
             ObjectsInCase.Add(Obj.Name);
             return;
@@ -40,7 +42,9 @@ public class Tutorial_Manager : MonoBehaviour
 
     public void RemoveObj()
     {
-        if (Obj.obj == null || Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
+        if (Obj.obj == null)
+            return;
+        if (Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
         {
             ObjectsInCase.Remove(Obj.Name);
             return;
@@ -138,21 +142,18 @@ public class Tutorial_Manager : MonoBehaviour
     
     public void SetInstructions()
     {
-        if(Suitcase_Packed.value && Answered_Phone.value)
+        Instructions_Text.text = "Make Breakfast";
+        if (Made_Breakfast.value)
         {
-            Instructions_Text.text = "Leave for Work";
-        }
-        else if (Answered_Phone.value)
-        {
-            Instructions_Text.text = "Pack bag";
-        }
-        else if (Made_Breakfast.value)
-        {
-            Instructions_Text.text = "Answer up phone";
-        }
-        else
-        {
-            Instructions_Text.text = "Make Breakfast";
+            Instructions_Text.text = "Check your phone";
+            if (Answered_Phone.value)
+            {
+                Instructions_Text.text = "Pack bag";
+                if (Suitcase_Packed.value)
+                {
+                    Instructions_Text.text = "Leave for Work";
+                }
+            }
         }
     }
 

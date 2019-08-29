@@ -15,7 +15,5 @@ MonoBehaviour:
   Temperature:
   - Hot
   - Warm
-  Weather:
-  - Snow
-  - Rain
+  Weather: []
   Space_Taken: 0

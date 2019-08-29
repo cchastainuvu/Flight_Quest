@@ -14,18 +14,21 @@ public class Instantiate_Loop : MonoBehaviour
 
     private void Start()
     {
-        
-        ObjectToInstantiate.transform.parent = Parent;
         objs = new List<GameObject>();
-        objs.Add(ObjectToInstantiate);
-        objs[0].SetActive(false);
-        for(int i = 1; i < Num_of_Objects; i++)
+        ObjectToInstantiate.SetActive(false);
+        for(int i = 0; i < Num_of_Objects; i++)
         {
-            objs.Add(Instantiate(ObjectToInstantiate, Parent, true));
+            objs.Add(Instantiate(ObjectToInstantiate));
+            //transform.localScale = Vector3.one;
             objs[i].transform.parent = Parent;
             objs[i].SetActive(false);
             //objs[i].transform.localPosition = localPosition;
         }
+
+        ObjectToInstantiate.transform.parent = Parent;
+        transform.localScale = Vector3.one;
+        localPosition = ObjectToInstantiate.transform.localPosition;
+        objs.Add(ObjectToInstantiate);
     }
 
     public void Call()
@@ -39,13 +42,18 @@ public class Instantiate_Loop : MonoBehaviour
         while (!finished)
         {
             if (current >= Num_of_Objects)
+            {
                 current = 0;
+                Debug.Log("Reset");
+            }
 
             objs[current].SetActive(false);
+            objs[current].transform.parent = Parent;
             objs[current].transform.localPosition = localPosition;
+            transform.localScale = Vector3.one;
             objs[current].SetActive(true);
             current++;
-            yield return new WaitForFixedUpdate();
+            yield return new WaitForSeconds(.1f);
         }
     }
 

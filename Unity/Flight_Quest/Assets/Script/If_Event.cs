@@ -20,4 +20,12 @@ public class If_Event : MonoBehaviour
         }
 
     }
+
+    public void Check(Bool_Data Bool)
+    {
+        if(Bool.value)
+            onTrue.Invoke();
+        else
+            onFalse.Invoke();
+    }
 }

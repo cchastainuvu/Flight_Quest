@@ -17,6 +17,12 @@ TagManager:
   - Cap
   - Liquid
   - Cereal
+  - Shimmy
+  - Walk
+  - Sit
+  - Stand
+  - FireExtinguisher
+  - Box
   layers:
   - Default
   - TransparentFX
