@@ -7,23 +7,25 @@ using UnityEngine.UI;
 
 public class Tutorial_Manager : MonoBehaviour
 {
-    public Bool_Data Suitcase_Closed, Made_Breakfast, Answered_Phone, Suitcase_Packed;
+    public Bool_Data Suitcase_Closed, Answered_Phone, Ironed_and_Polished, Suitcase_Packed;
     public Text Instructions_Text;
     public Weather_Ints_Object weather_tutorial;
     public GameObject_Data Obj;
     private Clothing_Object clothing_obj;
     private float tempScale;
-    private List<string> ObjectsInCase;
+    private String_List ObjectsInCase, ObjectsNeeded;
+    public Float_Data Tutorial_Score;
+    private bool hasitem;
 
     private void Start()
     {
-        ObjectsInCase = new List<string>();
+        Tutorial_Score.value = 0;
+        ObjectsInCase.strs.Clear();
         weather_tutorial.Cold.value = 0;
         weather_tutorial.Hot.value = 0;
         weather_tutorial.Warm.value = 0;
         weather_tutorial.Rain.value = 0;
         weather_tutorial.Snow.value = 0;
-
     }
 
     public void AddObj()
@@ -32,11 +34,11 @@ public class Tutorial_Manager : MonoBehaviour
             return;
         else if (Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
         {
-            ObjectsInCase.Add(Obj.Name);
+            ObjectsInCase.strs.Add(Obj.Name);
             return;
         } 
         clothing_obj = Obj.obj.GetComponent<Scriptable_Object_Holder>().obj as Clothing_Object;
-        ObjectsInCase.Add(Obj.Name);
+        ObjectsInCase.strs.Add(Obj.Name);
         AddWeatherAttributes(clothing_obj);
     }
 
@@ -46,11 +48,11 @@ public class Tutorial_Manager : MonoBehaviour
             return;
         if (Obj.obj.GetComponent<Scriptable_Object_Holder>() == null)
         {
-            ObjectsInCase.Remove(Obj.Name);
+            ObjectsInCase.strs.Remove(Obj.Name);
             return;
         }
         clothing_obj = Obj.obj.GetComponent<Scriptable_Object_Holder>().obj as Clothing_Object;
-        ObjectsInCase.Remove(Obj.Name);
+        ObjectsInCase.strs.Remove(Obj.Name);
         SubWeatherAttributes(clothing_obj);
     }
 
@@ -142,17 +144,34 @@ public class Tutorial_Manager : MonoBehaviour
     
     public void SetInstructions()
     {
-        Instructions_Text.text = "Make Breakfast";
-        if (Made_Breakfast.value)
+        Instructions_Text.text = "Answer Phone";
+        if (Answered_Phone.value)
         {
-            Instructions_Text.text = "Check your phone";
-            if (Answered_Phone.value)
+            Instructions_Text.text = "Iron Outfit and Polish Shoes";
+            if (Ironed_and_Polished.value)
             {
-                Instructions_Text.text = "Pack bag";
-                if (Suitcase_Packed.value)
+                Instructions_Text.text = "Pack Bags"; 
+            }
+        }
+    }
+
+    public void GetScores()
+    {
+        for (int i = 0; i < ObjectsNeeded.strs.Count; i++)
+        {
+            hasitem = false;
+            for (int j = 0; j < ObjectsInCase.strs.Count; i++)
+            {
+                if (ObjectsInCase.strs[j] == ObjectsNeeded.strs[i])
                 {
-                    Instructions_Text.text = "Leave for Work";
+                    Tutorial_Score.value++;
+                    hasitem = true;
                 }
+            }
+
+            if (!hasitem)
+            {
+                Tutorial_Score.value--;
             }
         }
     }
