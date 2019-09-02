@@ -23,6 +23,8 @@ TagManager:
   - Stand
   - FireExtinguisher
   - Box
+  - Iron
+  - Shoe
   layers:
   - Default
   - TransparentFX
