@@ -7,7 +7,7 @@ public class If_Event : MonoBehaviour
 {
     public UnityEvent onTrue, onFalse;
 
-    public void Check(List_Data bools)
+    public void Check(Bool_List bools)
     {
         foreach (var b in bools.bools)
         {

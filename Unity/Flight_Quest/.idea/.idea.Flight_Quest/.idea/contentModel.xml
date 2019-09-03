@@ -6,6 +6,15 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Ironing_Stuff" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="DeformableMesh.cs" t="Include" />
+            <e p="Event_Script.cs" t="Include" />
+            <e p="GeneratePlaneMesh.cs" t="Include" />
+            <e p="PhysicsDeformer.cs" t="Include" />
+            <e p="PhysicsDisplacementMapDeformer.cs" t="Include" />
+          </e>
+        </e>
         <e p="Prototype" t="Include">
           <e p="EffectExamples" t="Include">
             <e p="Magic Effects" t="Include">
@@ -43,26 +52,30 @@
           <e p="If_Event.cs" t="Include" />
           <e p="Incrementing_Bar_UI.cs" t="Include" />
           <e p="Instantiate_Loop.cs" t="Include" />
+          <e p="MaterialSwap.cs" t="Include" />
           <e p="Reset_bools.cs" t="Include" />
           <e p="Rotating_Events.cs" t="Include" />
           <e p="Scriptable_Object_Holder.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="Bool_Data.cs" t="Include" />
+            <e p="Bool_List.cs" t="Include" />
             <e p="Clothing_Object.cs" t="Include" />
             <e p="Debug_Object.cs" t="Include" />
             <e p="Float_Data.cs" t="Include" />
             <e p="GameObject_Data.cs" t="Include" />
             <e p="Int_Data.cs" t="Include" />
-            <e p="List_Data.cs" t="Include" />
             <e p="Name_ID.cs" t="Include" />
+            <e p="String_List.cs" t="Include" />
             <e p="Weather_Ints_Object.cs" t="Include" />
           </e>
           <e p="ScrollBar_Event.cs" t="Include" />
           <e p="Set_Parent.cs" t="Include" />
-          <e p="Suitcase_SCript.cs" t="Include" />
           <e p="Tilt_Event.cs" t="Include" />
           <e p="TriggerEvent.cs" t="Include" />
-          <e p="Tutorial_Manager.cs" t="Include" />
+          <e p="Tutorial" t="Include">
+            <e p="Clean_Script.cs" t="Include" />
+            <e p="Tutorial_Manager.cs" t="Include" />
+          </e>
         </e>
         <e p="SteamVR" t="Include">
           <e p="Editor" t="Include">
@@ -221,6 +234,12 @@
             <e p="SteamVR_TrackedObject.cs" t="Include" />
             <e p="SteamVR_UpdatePoses.cs" t="Include" />
             <e p="SteamVR_Utils.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Test" t="Include">
+          <e p="Materials" t="Include">
+            <e p="Hologram.shader" t="Include" />
+            <e p="Wrinkle.shader" t="Include" />
           </e>
         </e>
         <e p="VRTK" t="Include">
