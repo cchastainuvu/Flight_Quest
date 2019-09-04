@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class MaterialSwap : MonoBehaviour
 {
@@ -9,6 +10,7 @@ public class MaterialSwap : MonoBehaviour
     private List<Material> mats;
     private Color matCol;
     public List<float> initAlphas;
+    public UnityEvent OnSwap;
 
     public void Initialize()
     {
@@ -28,8 +30,11 @@ public class MaterialSwap : MonoBehaviour
 
     public void SetMaterialAlpha(int MatNum)
     {
-        if (alphas[MatNum].value < 0)
+        if (alphas[MatNum].value <= 0)
+        {
+            OnSwap.Invoke();
             return;
+        }
         matCol = mats[MatNum].color;
         matCol.a = alphas[MatNum].value;
         mats[MatNum].color = matCol;

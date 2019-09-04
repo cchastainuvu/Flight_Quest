@@ -6,7 +6,7 @@ public class Reset_bools : MonoBehaviour
 {
     public List<Bool_Data> bools;
 
-    public void Start()
+    public void Reset()
     {
         foreach(var b in bools)
         {

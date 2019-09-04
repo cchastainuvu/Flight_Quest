@@ -7,13 +7,13 @@ using UnityEngine.UI;
 
 public class Tutorial_Manager : MonoBehaviour
 {
-    public Bool_Data Suitcase_Closed, Answered_Phone, Ironed_and_Polished, Suitcase_Packed;
+    public Bool_Data Suitcase_Closed, Answered_Phone, Iron_Shirt, Polish_Shoes, Suitcase_Packed, Lunch_Packed, Carry_On_Packed;
     public Text Instructions_Text;
     public Weather_Ints_Object weather_tutorial;
     public GameObject_Data Obj;
     private Clothing_Object clothing_obj;
     private float tempScale;
-    private String_List ObjectsInCase, ObjectsNeeded;
+    public String_List ObjectsInCase, ObjectsNeeded;
     public Float_Data Tutorial_Score;
     private bool hasitem;
 
@@ -26,6 +26,7 @@ public class Tutorial_Manager : MonoBehaviour
         weather_tutorial.Warm.value = 0;
         weather_tutorial.Rain.value = 0;
         weather_tutorial.Snow.value = 0;
+        SetInstructions();
     }
 
     public void AddObj()
@@ -147,10 +148,27 @@ public class Tutorial_Manager : MonoBehaviour
         Instructions_Text.text = "Answer Phone";
         if (Answered_Phone.value)
         {
-            Instructions_Text.text = "Iron Outfit and Polish Shoes";
-            if (Ironed_and_Polished.value)
+            Instructions_Text.text = "Iron Outfit";
+            if (Iron_Shirt.value)
             {
-                Instructions_Text.text = "Pack Bags"; 
+                Instructions_Text.text = "Polish Shoes";
+                if (Polish_Shoes.value)
+                {
+                    Instructions_Text.text = "Pack Bags";
+                    if (Suitcase_Packed.value)
+                    {
+                        Instructions_Text.text = "Pack Lunch Bag";
+                        if (Lunch_Packed.value)
+                        {
+                            Instructions_Text.text = "Pack Carry On";
+                            if (Carry_On_Packed.value)
+                            {
+                                Instructions_Text.text = "Leave for work";
+                            }
+                        }
+                    }
+                }
+                
             }
         }
     }
