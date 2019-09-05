@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 14c4b5ba9f085a249b81274762ce47ef
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bath_Door_Geo_Grp
+    100002: Bathroom_Ceiling_Geo
+    100004: Bathroom_Door_Geo
+    100006: Bathroom_Floor_Geo
+    100008: Bathroom_Geo
+    100010: Bathroom_Geo_Grp
+    100012: Bed_Door_Geo_Grp
+    100014: Bedroom_Ceiling_Geo
+    100016: Bedroom_Door_Geo
+    100018: Bedroom_Floor_Geo
+    100020: Bedroom_Geo
+    100022: Bedroom_Geo_Grp
+    100024: Closet_Rack_Geo
+    100026: Closet_Shelf_Geo
+    100028: F_Foundation_Geo
+    100030: //RootNode
+    100032: Frame_01_Geo
+    100034: Frame_01_Geo 1
+    100036: Frame_02_Geo
+    100038: Frame_02_Geo 1
+    100040: Frame_Geo
+    100042: Front_Door_Geo
+    100044: Front_Door_Geo_Grp
+    100046: Garage_Door_Geo
+    100048: L_Window_Geo
+    100050: Main_Ceiling_Geo
+    100052: Main_Floor_Geo
+    100054: Main_Room_Geo
+    100056: Main_Room_Geo_Grp
+    100058: R_Window_Geo
+    400000: Bath_Door_Geo_Grp
+    400002: Bathroom_Ceiling_Geo
+    400004: Bathroom_Door_Geo
+    400006: Bathroom_Floor_Geo
+    400008: Bathroom_Geo
+    400010: Bathroom_Geo_Grp
+    400012: Bed_Door_Geo_Grp
+    400014: Bedroom_Ceiling_Geo
+    400016: Bedroom_Door_Geo
+    400018: Bedroom_Floor_Geo
+    400020: Bedroom_Geo
+    400022: Bedroom_Geo_Grp
+    400024: Closet_Rack_Geo
+    400026: Closet_Shelf_Geo
+    400028: F_Foundation_Geo
+    400030: //RootNode
+    400032: Frame_01_Geo
+    400034: Frame_01_Geo 1
+    400036: Frame_02_Geo
+    400038: Frame_02_Geo 1
+    400040: Frame_Geo
+    400042: Front_Door_Geo
+    400044: Front_Door_Geo_Grp
+    400046: Garage_Door_Geo
+    400048: L_Window_Geo
+    400050: Main_Ceiling_Geo
+    400052: Main_Floor_Geo
+    400054: Main_Room_Geo
+    400056: Main_Room_Geo_Grp
+    400058: R_Window_Geo
+    2100000: lambert1
+    2300000: Bathroom_Ceiling_Geo
+    2300002: Bathroom_Door_Geo
+    2300004: Bathroom_Floor_Geo
+    2300006: Bathroom_Geo
+    2300008: Bedroom_Ceiling_Geo
+    2300010: Bedroom_Door_Geo
+    2300012: Bedroom_Floor_Geo
+    2300014: Bedroom_Geo
+    2300016: Closet_Rack_Geo
+    2300018: Closet_Shelf_Geo
+    2300020: F_Foundation_Geo
+    2300022: Frame_01_Geo
+    2300024: Frame_01_Geo 1
+    2300026: Frame_02_Geo
+    2300028: Frame_02_Geo 1
+    2300030: Frame_Geo
+    2300032: Front_Door_Geo
+    2300034: Garage_Door_Geo
+    2300036: L_Window_Geo
+    2300038: Main_Ceiling_Geo
+    2300040: Main_Floor_Geo
+    2300042: Main_Room_Geo
+    2300044: R_Window_Geo
+    3300000: Bathroom_Ceiling_Geo
+    3300002: Bathroom_Door_Geo
+    3300004: Bathroom_Floor_Geo
+    3300006: Bathroom_Geo
+    3300008: Bedroom_Ceiling_Geo
+    3300010: Bedroom_Door_Geo
+    3300012: Bedroom_Floor_Geo
+    3300014: Bedroom_Geo
+    3300016: Closet_Rack_Geo
+    3300018: Closet_Shelf_Geo
+    3300020: F_Foundation_Geo
+    3300022: Frame_01_Geo
+    3300024: Frame_01_Geo 1
+    3300026: Frame_02_Geo
+    3300028: Frame_02_Geo 1
+    3300030: Frame_Geo
+    3300032: Front_Door_Geo
+    3300034: Garage_Door_Geo
+    3300036: L_Window_Geo
+    3300038: Main_Ceiling_Geo
+    3300040: Main_Floor_Geo
+    3300042: Main_Room_Geo
+    3300044: R_Window_Geo
+    4300000: Front_Door_Geo
+    4300002: Frame_Geo
+    4300004: R_Window_Geo
+    4300006: L_Window_Geo
+    4300008: Bedroom_Door_Geo
+    4300010: Frame_01_Geo
+    4300012: Frame_02_Geo
+    4300014: Bathroom_Door_Geo
+    4300016: Frame_01_Geo
+    4300018: Frame_02_Geo
+    4300020: Bedroom_Ceiling_Geo
+    4300022: Bedroom_Geo
+    4300024: Bedroom_Floor_Geo
+    4300026: Closet_Shelf_Geo
+    4300028: Closet_Rack_Geo
+    4300030: Garage_Door_Geo
+    4300032: Main_Ceiling_Geo
+    4300034: F_Foundation_Geo
+    4300036: Main_Room_Geo
+    4300038: Main_Floor_Geo
+    4300040: Bathroom_Ceiling_Geo
+    4300042: Bathroom_Floor_Geo
+    4300044: Bathroom_Geo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
