@@ -35,9 +35,13 @@ public class Clean_Script : MonoBehaviour
                 origPos = newPos;
                 if (matswap != null)
                 {
-                    Debug.Log("clean");
+                    Debug.Log("clean" + matswap.gameObject.name);
                     matswap.alphas[0].value -= matswapfloat;
                     matswap.SetMaterialAlpha(0);
+                    if (matswap.alphas[0].value <= 0)
+                    {
+                        Stop();
+                    }
                 }
                 onClean.Invoke();
             }
