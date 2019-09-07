@@ -49,12 +49,19 @@
           </e>
         </e>
         <e p="Script" t="Include">
-          <e p="If_Event.cs" t="Include" />
+          <e p="Clock_Script.cs" t="Include" />
+          <e p="EventScripts" t="Include">
+            <e p="If_Event.cs" t="Include" />
+            <e p="Rotating_Events.cs" t="Include" />
+            <e p="ScrollBar_Event.cs" t="Include" />
+            <e p="Tilt_Event.cs" t="Include" />
+            <e p="TriggerEvent.cs" t="Include" />
+          </e>
           <e p="Incrementing_Bar_UI.cs" t="Include" />
           <e p="Instantiate_Loop.cs" t="Include" />
+          <e p="InteractableObject_Toggle.cs" t="Include" />
           <e p="MaterialSwap.cs" t="Include" />
           <e p="Reset_bools.cs" t="Include" />
-          <e p="Rotating_Events.cs" t="Include" />
           <e p="Scriptable_Object_Holder.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="Bool_Data.cs" t="Include" />
@@ -68,12 +75,11 @@
             <e p="String_List.cs" t="Include" />
             <e p="Weather_Ints_Object.cs" t="Include" />
           </e>
-          <e p="ScrollBar_Event.cs" t="Include" />
           <e p="Set_Parent.cs" t="Include" />
-          <e p="Tilt_Event.cs" t="Include" />
-          <e p="TriggerEvent.cs" t="Include" />
+          <e p="Timer.cs" t="Include" />
           <e p="Tutorial" t="Include">
             <e p="Clean_Script.cs" t="Include" />
+            <e p="To_Do_List.cs" t="Include" />
             <e p="Tutorial_Manager.cs" t="Include" />
           </e>
         </e>
