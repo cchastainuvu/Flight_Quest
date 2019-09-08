@@ -1,26 +1,31 @@
 fileFormatVersion: 2
-guid: 726dddf6a9d89004baa74eea28d36fe3
+guid: c23718aaefcb7994cb3ff1bb72cf0586
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: Freezer_Door
-    100002: //RootNode
-    100004: Fridge_Base
-    100006: Fridge_Door
-    400000: Freezer_Door
-    400002: //RootNode
-    400004: Fridge_Base
-    400006: Fridge_Door
+    100000: Dinning_Chair_Back
+    100002: Dinning_Chair_Back_Legs
+    100004: Dinning_Chair_Front_Legs
+    100006: Dinning_Chair_Seat
+    100008: //RootNode
+    400000: Dinning_Chair_Back
+    400002: Dinning_Chair_Back_Legs
+    400004: Dinning_Chair_Front_Legs
+    400006: Dinning_Chair_Seat
+    400008: //RootNode
     2100000: lambert1
-    2300000: Freezer_Door
-    2300002: Fridge_Base
-    2300004: Fridge_Door
-    3300000: Freezer_Door
-    3300002: Fridge_Base
-    3300004: Fridge_Door
-    4300000: Fridge_Door
-    4300002: Freezer_Door
-    4300004: Fridge_Base
+    2300000: Dinning_Chair_Back
+    2300002: Dinning_Chair_Back_Legs
+    2300004: Dinning_Chair_Front_Legs
+    2300006: Dinning_Chair_Seat
+    3300000: Dinning_Chair_Back
+    3300002: Dinning_Chair_Back_Legs
+    3300004: Dinning_Chair_Front_Legs
+    3300006: Dinning_Chair_Seat
+    4300000: Dinning_Chair_Seat
+    4300002: Dinning_Chair_Back
+    4300004: Dinning_Chair_Front_Legs
+    4300006: Dinning_Chair_Back_Legs
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -52,7 +57,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 1
+    globalScale: 25
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1

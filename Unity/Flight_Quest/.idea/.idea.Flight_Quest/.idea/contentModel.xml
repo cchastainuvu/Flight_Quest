@@ -49,6 +49,8 @@
           </e>
         </e>
         <e p="Script" t="Include">
+          <e p="ChangeRigidbody.cs" t="Include" />
+          <e p="CheckList.cs" t="Include" />
           <e p="Clock_Script.cs" t="Include" />
           <e p="EventScripts" t="Include">
             <e p="If_Event.cs" t="Include" />
@@ -72,6 +74,8 @@
             <e p="GameObject_Data.cs" t="Include" />
             <e p="Int_Data.cs" t="Include" />
             <e p="Name_ID.cs" t="Include" />
+            <e p="Object_ID.cs" t="Include" />
+            <e p="String_Data.cs" t="Include" />
             <e p="String_List.cs" t="Include" />
             <e p="Weather_Ints_Object.cs" t="Include" />
           </e>

@@ -5,10 +5,11 @@ using UnityEngine.Events;
 
 public class To_Do_List : MonoBehaviour
 {
-    public List<string> items;
+    public List<Name_ID> items;
     public List<GameObject> crosses;
     public UnityEvent FinishedTasks;
     private int objectsCrossed;
+    private Name_ID objID;
 
     private void Start()
     {
@@ -22,7 +23,7 @@ public class To_Do_List : MonoBehaviour
     public void CrossOff(string obj) {
         for(int i = 0; i < items.Count; i++)
         {
-            if (obj.Contains(items[i]))
+            if (obj.Contains(items[i].name))
             {
                 if (!crosses[i].activeInHierarchy)
                 {
@@ -41,19 +42,24 @@ public class To_Do_List : MonoBehaviour
 
     public void CrossOff(GameObject_Data obj)
     {
-        for (int i = 0; i < items.Count; i++)
+        if(obj.obj.GetComponent<Object_ID>() != null)
         {
-            if (obj.Name.Contains(items[i]))
+            objID = obj.obj.GetComponent<Object_ID>().ID;
+            for (int i = 0; i < items.Count; i++)
             {
-                if (!crosses[i].activeInHierarchy)
+                if (objID.name.Contains(items[i].name))
                 {
-                    crosses[i].SetActive(true);
-                    objectsCrossed++;
-                    if(objectsCrossed >= items.Count)
+                    if (!crosses[i].activeInHierarchy)
                     {
-                        FinishedTasks.Invoke();
+                        crosses[i].SetActive(true);
+                        objectsCrossed++;
+                        if (objectsCrossed >= items.Count)
+                        {
+                            FinishedTasks.Invoke();
+                        }
+
+                        return;
                     }
-                    return;
                 }
             }
         }
@@ -61,14 +67,15 @@ public class To_Do_List : MonoBehaviour
 
     public void unCrossOff(string obj)
     {
-        for (int i = 0; i < items.Count; i++)
+        for(int i = 0; i < items.Count; i++)
         {
-            if (obj.Contains(items[i]))
+            if (obj.Contains(items[i].name))
             {
                 if (crosses[i].activeInHierarchy)
                 {
                     crosses[i].SetActive(false);
                     objectsCrossed--;
+                    
                 }
 
             }
@@ -77,14 +84,24 @@ public class To_Do_List : MonoBehaviour
 
     public void unCrossOff(GameObject_Data obj)
     {
-        for (int i = 0; i < items.Count; i++)
+        if(obj.obj.GetComponent<Object_ID>() != null)
         {
-            if (obj.Name.Contains(items[i]))
+            objID = obj.obj.GetComponent<Object_ID>().ID;
+            for (int i = 0; i < items.Count; i++)
             {
-                if (crosses[i].activeInHierarchy)
+                if (objID.name.Contains(items[i].name))
                 {
-                    crosses[i].SetActive(false);
-                    objectsCrossed--;
+                    if (!crosses[i].activeInHierarchy)
+                    {
+                        crosses[i].SetActive(true);
+                        objectsCrossed++;
+                        if (objectsCrossed >= items.Count)
+                        {
+                            FinishedTasks.Invoke();
+                        }
+
+                        return;
+                    }
                 }
             }
         }
