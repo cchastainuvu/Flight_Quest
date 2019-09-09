@@ -64,6 +64,7 @@
           <e p="InteractableObject_Toggle.cs" t="Include" />
           <e p="MaterialSwap.cs" t="Include" />
           <e p="Reset_bools.cs" t="Include" />
+          <e p="Scene_Object.cs" t="Include" />
           <e p="Scriptable_Object_Holder.cs" t="Include" />
           <e p="ScriptableObjects" t="Include">
             <e p="Bool_Data.cs" t="Include" />
@@ -71,6 +72,7 @@
             <e p="Clothing_Object.cs" t="Include" />
             <e p="Debug_Object.cs" t="Include" />
             <e p="Float_Data.cs" t="Include" />
+            <e p="Food_Object.cs" t="Include" />
             <e p="GameObject_Data.cs" t="Include" />
             <e p="Int_Data.cs" t="Include" />
             <e p="Name_ID.cs" t="Include" />
