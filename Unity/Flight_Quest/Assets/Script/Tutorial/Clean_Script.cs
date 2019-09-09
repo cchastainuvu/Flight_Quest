@@ -36,10 +36,11 @@ public class Clean_Script : MonoBehaviour
                 if (matswap != null)
                 {
                     Debug.Log("clean" + matswap.gameObject.name);
-                    matswap.alphas[0].value -= matswapfloat;
+                    matswap.alphas[0].value -= matswapfloat*.1f;
                     matswap.SetMaterialAlpha(0);
                     if (matswap.alphas[0].value <= 0)
                     {
+                        yield return new WaitForSeconds(.25f);
                         Stop();
                     }
                 }

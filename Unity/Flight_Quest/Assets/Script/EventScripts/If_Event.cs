@@ -15,9 +15,9 @@ public class If_Event : MonoBehaviour
             {
                 onFalse.Invoke();
                 return;
-            }
-            onTrue.Invoke();
+            } 
         }
+        onTrue.Invoke();
 
     }
 

@@ -8,6 +8,7 @@ public class Bool_Data : ScriptableObject
 
     public void Set(bool val)
     {
+        Debug.Log(name + " Changed Value " + val);
         value = val;
     }
 }
