@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 6384a5086df819e4e8b009c4a8fd94a9
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bathroom_Counter
+    100002: Bathroom_Counter3
+    100004: Bathroom_Counter3 1
+    100006: Bathroom_Counter3 2
+    100008: Bathroom_Counter4
+    100010: Bathroom_Counter5
+    100012: Bathroom_Counter6
+    100014: Bathroom_Cupboard
+    100016: Box
+    100018: Corner
+    100020: //RootNode
+    100022: group1
+    100024: Kitchen_Counter_With_Sink
+    100026: Kitchen_Counter_With_Sink 1
+    100028: KitchenCounter_Middle
+    100030: KitchenCounterL_End
+    100032: KitchenCounterR_End
+    100034: L_Door
+    100036: L_Door1
+    100038: L_Door4
+    100040: L_Door4 1
+    100042: L_Door4 2
+    100044: L_Door4 3
+    100046: L_Door5
+    100048: L_Door6
+    100050: R_Door
+    100052: R_Door1
+    100054: R_Door4
+    100056: R_Door4 1
+    100058: R_Door4 2
+    100060: R_Door4 3
+    100062: R_Door5
+    100064: R_Door6
+    100066: Sink
+    400000: Bathroom_Counter
+    400002: Bathroom_Counter3
+    400004: Bathroom_Counter3 1
+    400006: Bathroom_Counter3 2
+    400008: Bathroom_Counter4
+    400010: Bathroom_Counter5
+    400012: Bathroom_Counter6
+    400014: Bathroom_Cupboard
+    400016: Box
+    400018: Corner
+    400020: //RootNode
+    400022: group1
+    400024: Kitchen_Counter_With_Sink
+    400026: Kitchen_Counter_With_Sink 1
+    400028: KitchenCounter_Middle
+    400030: KitchenCounterL_End
+    400032: KitchenCounterR_End
+    400034: L_Door
+    400036: L_Door1
+    400038: L_Door4
+    400040: L_Door4 1
+    400042: L_Door4 2
+    400044: L_Door4 3
+    400046: L_Door5
+    400048: L_Door6
+    400050: R_Door
+    400052: R_Door1
+    400054: R_Door4
+    400056: R_Door4 1
+    400058: R_Door4 2
+    400060: R_Door4 3
+    400062: R_Door5
+    400064: R_Door6
+    400066: Sink
+    2100000: lambert1
+    2300000: Bathroom_Counter
+    2300002: Bathroom_Counter3
+    2300004: Bathroom_Counter3 1
+    2300006: Bathroom_Counter3 2
+    2300008: Bathroom_Counter4
+    2300010: Bathroom_Counter5
+    2300012: Bathroom_Counter6
+    2300014: Bathroom_Cupboard
+    2300016: Box
+    2300018: Kitchen_Counter_With_Sink 1
+    2300020: L_Door
+    2300022: L_Door1
+    2300024: L_Door4
+    2300026: L_Door4 1
+    2300028: L_Door4 2
+    2300030: L_Door4 3
+    2300032: L_Door5
+    2300034: L_Door6
+    2300036: R_Door
+    2300038: R_Door1
+    2300040: R_Door4
+    2300042: R_Door4 1
+    2300044: R_Door4 2
+    2300046: R_Door4 3
+    2300048: R_Door5
+    2300050: R_Door6
+    3300000: Bathroom_Counter
+    3300002: Bathroom_Counter3
+    3300004: Bathroom_Counter3 1
+    3300006: Bathroom_Counter3 2
+    3300008: Bathroom_Counter4
+    3300010: Bathroom_Counter5
+    3300012: Bathroom_Counter6
+    3300014: Bathroom_Cupboard
+    3300016: Box
+    3300018: Kitchen_Counter_With_Sink 1
+    3300020: L_Door
+    3300022: L_Door1
+    3300024: L_Door4
+    3300026: L_Door4 1
+    3300028: L_Door4 2
+    3300030: L_Door4 3
+    3300032: L_Door5
+    3300034: L_Door6
+    3300036: R_Door
+    3300038: R_Door1
+    3300040: R_Door4
+    3300042: R_Door4 1
+    3300044: R_Door4 2
+    3300046: R_Door4 3
+    3300048: R_Door5
+    3300050: R_Door6
+    4300000: Box
+    4300002: R_Door5
+    4300004: L_Door5
+    4300006: Bathroom_Counter4
+    4300008: L_Door
+    4300010: R_Door
+    4300012: Bathroom_Counter
+    4300014: Bathroom_Cupboard
+    4300016: R_Door1
+    4300018: L_Door1
+    4300020: Bathroom_Counter3
+    4300022: L_Door4
+    4300024: R_Door4
+    4300026: Bathroom_Counter3
+    4300028: L_Door4
+    4300030: R_Door4
+    4300032: Bathroom_Counter5
+    4300034: R_Door4
+    4300036: L_Door4
+    4300038: Bathroom_Counter3
+    4300040: L_Door6
+    4300042: Bathroom_Counter6
+    4300044: R_Door6
+    4300046: L_Door4
+    4300048: R_Door4
+    4300050: Kitchen_Counter_With_Sink
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 75
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

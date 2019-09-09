@@ -1,14 +1,43 @@
 fileFormatVersion: 2
-guid: 537ffcd7fd293f948b82873b67b64de1
+guid: 58fda1a6ca6199547ab777138f708a1f
 ModelImporter:
   serializedVersion: 23
   fileIDToRecycleName:
-    100000: //RootNode
-    400000: //RootNode
-    2100000: Stove_Mat
-    2300000: //RootNode
-    3300000: //RootNode
-    4300000: Stove
+    100000: Bathroom_Counter
+    100002: Bathroom_Cupboard
+    100004: //RootNode
+    100006: group1
+    100008: L_Door
+    100010: L_Door1
+    100012: R_Door
+    100014: R_Door1
+    400000: Bathroom_Counter
+    400002: Bathroom_Cupboard
+    400004: //RootNode
+    400006: group1
+    400008: L_Door
+    400010: L_Door1
+    400012: R_Door
+    400014: R_Door1
+    2100000: lambert1
+    2300000: Bathroom_Counter
+    2300002: Bathroom_Cupboard
+    2300004: L_Door
+    2300006: L_Door1
+    2300008: R_Door
+    2300010: R_Door1
+    3300000: Bathroom_Counter
+    3300002: Bathroom_Cupboard
+    3300004: L_Door
+    3300006: L_Door1
+    3300008: R_Door
+    3300010: R_Door1
+    4300000: L_Door
+    4300002: R_Door
+    4300004: Bathroom_Counter
+    4300006: Bathroom_Cupboard
+    4300008: R_Door1
+    4300010: L_Door1
   externalObjects: {}
   materials:
     importMaterials: 1
@@ -40,7 +69,7 @@ ModelImporter:
     isReadable: 1
   meshes:
     lODScreenPercentages: []
-    globalScale: 50
+    globalScale: 75
     meshCompression: 0
     addColliders: 0
     useSRGBMaterialColor: 1
