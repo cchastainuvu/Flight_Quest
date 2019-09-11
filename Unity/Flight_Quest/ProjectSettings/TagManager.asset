@@ -33,6 +33,12 @@ TagManager:
   - ExcludeTeleport
   - Torso
   - Head
+  - Jeans
+  - Tank
+  - TShirt
+  - RainCoat
+  - Shorts
+  - Sweats
   layers:
   - Default
   - TransparentFX
@@ -44,8 +50,8 @@ TagManager:
   - 
   - Ignore_Hands
   - Hands
-  - 
-  - 
+  - Wall
+  - Floor
   - 
   - 
   - 

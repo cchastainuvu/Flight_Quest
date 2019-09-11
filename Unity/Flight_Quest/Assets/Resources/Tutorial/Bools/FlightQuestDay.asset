@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f3536013381c0409cdc350cba90dae, type: 3}
   m_Name: FlightQuestDay
   m_EditorClassIdentifier: 
-  value: 1
+  value: 0
