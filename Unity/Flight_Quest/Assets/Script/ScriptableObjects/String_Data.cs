@@ -5,4 +5,9 @@ using UnityEngine;
 public class String_Data : ScriptableObject
 {
     public string value;
+
+    public void setString(string val)
+    {
+        value = val;
+    }
 }
