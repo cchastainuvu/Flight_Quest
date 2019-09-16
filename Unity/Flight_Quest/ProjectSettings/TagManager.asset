@@ -39,6 +39,9 @@ TagManager:
   - RainCoat
   - Shorts
   - Sweats
+  - Coat
+  - Jacket
+  - Work
   layers:
   - Default
   - TransparentFX
