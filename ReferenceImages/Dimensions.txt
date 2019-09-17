@@ -1,0 +1,2 @@
+Trolley Dimensions
+W: 1 ft D: 2.6 ft H: 2.4 ft
