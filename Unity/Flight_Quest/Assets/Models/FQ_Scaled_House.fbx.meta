@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: dc32564a43ff54a42bc73fb4d9efdb85
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bath_Ceiling_Geo
+    100002: Bath_Door_Geo_Grp
+    100004: Bath_Floor_Geo
+    100006: Bath_Walls_Geo
+    100008: Bathroom_Geo_Grp
+    100010: Bed_Ceiling_Geo
+    100012: Bed_Door_Geo_Grp
+    100014: Bed_Floor_Geo
+    100016: Bed_Walls_Geo
+    100018: Bedroom_Base_Geo_Grp
+    100020: Closet_Rack_Geo
+    100022: Closet_Shelf_Geo
+    100024: Door_01_Geo
+    100026: Door_02_Geo
+    100028: Foyer_Geo
+    100030: //RootNode
+    100032: Frame_01_Geo
+    100034: Frame_02_Geo
+    100036: Front_Door_Geo
+    100038: Front_Door_Geo_Grp
+    100040: Garage_Door_Geo
+    100042: Main_Ceiling_Geo
+    100044: Main_Floor_Geo
+    100046: Main_Room_Geo_Grp
+    100048: Main_Walls_Geo
+    100050: Windows_Geo
+    400000: Bath_Ceiling_Geo
+    400002: Bath_Door_Geo_Grp
+    400004: Bath_Floor_Geo
+    400006: Bath_Walls_Geo
+    400008: Bathroom_Geo_Grp
+    400010: Bed_Ceiling_Geo
+    400012: Bed_Door_Geo_Grp
+    400014: Bed_Floor_Geo
+    400016: Bed_Walls_Geo
+    400018: Bedroom_Base_Geo_Grp
+    400020: Closet_Rack_Geo
+    400022: Closet_Shelf_Geo
+    400024: Door_01_Geo
+    400026: Door_02_Geo
+    400028: Foyer_Geo
+    400030: //RootNode
+    400032: Frame_01_Geo
+    400034: Frame_02_Geo
+    400036: Front_Door_Geo
+    400038: Front_Door_Geo_Grp
+    400040: Garage_Door_Geo
+    400042: Main_Ceiling_Geo
+    400044: Main_Floor_Geo
+    400046: Main_Room_Geo_Grp
+    400048: Main_Walls_Geo
+    400050: Windows_Geo
+    2100000: lambert1
+    2300000: Bath_Ceiling_Geo
+    2300002: Bath_Floor_Geo
+    2300004: Bath_Walls_Geo
+    2300006: Bed_Ceiling_Geo
+    2300008: Bed_Floor_Geo
+    2300010: Bed_Walls_Geo
+    2300012: Closet_Rack_Geo
+    2300014: Closet_Shelf_Geo
+    2300016: Door_01_Geo
+    2300018: Door_02_Geo
+    2300020: Foyer_Geo
+    2300022: Frame_01_Geo
+    2300024: Frame_02_Geo
+    2300026: Front_Door_Geo
+    2300028: Garage_Door_Geo
+    2300030: Main_Ceiling_Geo
+    2300032: Main_Floor_Geo
+    2300034: Main_Walls_Geo
+    2300036: Windows_Geo
+    3300000: Bath_Ceiling_Geo
+    3300002: Bath_Floor_Geo
+    3300004: Bath_Walls_Geo
+    3300006: Bed_Ceiling_Geo
+    3300008: Bed_Floor_Geo
+    3300010: Bed_Walls_Geo
+    3300012: Closet_Rack_Geo
+    3300014: Closet_Shelf_Geo
+    3300016: Door_01_Geo
+    3300018: Door_02_Geo
+    3300020: Foyer_Geo
+    3300022: Frame_01_Geo
+    3300024: Frame_02_Geo
+    3300026: Front_Door_Geo
+    3300028: Garage_Door_Geo
+    3300030: Main_Ceiling_Geo
+    3300032: Main_Floor_Geo
+    3300034: Main_Walls_Geo
+    3300036: Windows_Geo
+    4300000: Bed_Ceiling_Geo
+    4300002: Bed_Walls_Geo
+    4300004: Bed_Floor_Geo
+    4300006: Closet_Shelf_Geo
+    4300008: Closet_Rack_Geo
+    4300010: Door_02_Geo
+    4300012: Frame_02_Geo
+    4300014: Foyer_Geo
+    4300016: Main_Ceiling_Geo
+    4300018: Main_Walls_Geo
+    4300020: Main_Floor_Geo
+    4300022: Garage_Door_Geo
+    4300024: Front_Door_Geo
+    4300026: Windows_Geo
+    4300028: Bath_Ceiling_Geo
+    4300030: Bath_Floor_Geo
+    4300032: Bath_Walls_Geo
+    4300034: Frame_01_Geo
+    4300036: Door_01_Geo
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 100
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
