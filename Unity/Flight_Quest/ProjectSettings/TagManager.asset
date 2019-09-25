@@ -42,6 +42,8 @@ TagManager:
   - Coat
   - Jacket
   - Work
+  - Seatbelt
+  - Intercom
   layers:
   - Default
   - TransparentFX

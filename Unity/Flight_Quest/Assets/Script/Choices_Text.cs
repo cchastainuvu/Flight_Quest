@@ -10,6 +10,7 @@ public class Choices_Text : MonoBehaviour
     public List<Button> Choice_Buttons;
     private List<Text> Button_Texts;
     private int startVal;
+    public List<UnityAction_Object> actions;
 
     private void Start()
     {
@@ -17,6 +18,14 @@ public class Choices_Text : MonoBehaviour
         foreach(var button in Choice_Buttons)
         {
             Button_Texts.Add(button.GetComponentInChildren<Text>());
+        }
+    }
+
+    public void Initialize()
+    {
+        foreach (var act in actions)
+        {
+            act.Erase();
         }
     }
 

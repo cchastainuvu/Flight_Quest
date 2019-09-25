@@ -11,4 +11,14 @@ public class UnityAction_Object : ScriptableObject
     {
         action.Invoke();
     }
+
+    public void Erase()
+    {
+        action = SetNull;
+    }
+
+    private void SetNull()
+    {
+        
+    }
 }
