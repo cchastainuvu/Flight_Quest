@@ -25,6 +25,15 @@ TagManager:
   - Box
   - Iron
   - Shoe
+  - ExcludeTeleport
+  - TeleportIgnore
+  - Leg
+  - SnapCube
+  - Arm
+  - SnapCylinder
+  - Saucers
+  - Torso
+  - Head
   layers:
   - Default
   - TransparentFX
@@ -34,9 +43,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - Floor
+  - Interactable
+  - Player
   - 
   - 
   - 
