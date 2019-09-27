@@ -11,12 +11,15 @@ public class Clean_Script : MonoBehaviour
     public UnityEvent onClean;
     private bool finished = true;
     public string tagname;
+    private MaterialSwap matswap;
+    public float matswapfloat;
 
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(tagname) && finished)
         {
             finished = false;
+            matswap = other.GetComponent<MaterialSwap>();
             StartCoroutine(Clean());
         }
     }
@@ -30,7 +33,17 @@ public class Clean_Script : MonoBehaviour
                 (newPos.z > origPos.z + .1f) || (newPos.z < origPos.z - .1f))
             {
                 origPos = newPos;
-                Debug.Log("Iron");
+                if (matswap != null)
+                {
+                    Debug.Log("clean" + matswap.gameObject.name);
+                    matswap.alphas[0].value -= matswapfloat*.1f;
+                    matswap.SetMaterialAlpha(0);
+                    if (matswap.alphas[0].value <= 0)
+                    {
+                        yield return new WaitForSeconds(.25f);
+                        Stop();
+                    }
+                }
                 onClean.Invoke();
             }
 

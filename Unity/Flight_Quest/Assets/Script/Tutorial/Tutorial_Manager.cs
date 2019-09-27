@@ -7,7 +7,7 @@ using UnityEngine.UI;
 
 public class Tutorial_Manager : MonoBehaviour
 {
-    public Bool_Data Suitcase_Closed, Answered_Phone, Iron_Shirt, Polish_Shoes, Suitcase_Packed, Lunch_Packed, Carry_On_Packed;
+    public Bool_Data FlightQuestDay, Suitcase_Closed, Answered_Phone, Iron_Shirt, Polish_Shoes, Suitcase_Packed, Lunch_Packed, Carry_On_Packed;
     public Text Instructions_Text;
     public Weather_Ints_Object weather_tutorial;
     public GameObject_Data Obj;
@@ -145,30 +145,41 @@ public class Tutorial_Manager : MonoBehaviour
     
     public void SetInstructions()
     {
-        Instructions_Text.text = "Answer Phone";
-        if (Answered_Phone.value)
+        if (FlightQuestDay.value)
         {
-            Instructions_Text.text = "Iron Outfit";
-            if (Iron_Shirt.value)
+            Instructions_Text.text = "Answer Phone";
+            if (Answered_Phone.value)
             {
-                Instructions_Text.text = "Polish Shoes";
-                if (Polish_Shoes.value)
+                Instructions_Text.text = "Iron Outfit";
+                if (Iron_Shirt.value)
                 {
-                    Instructions_Text.text = "Pack Bags";
-                    if (Suitcase_Packed.value)
+                    Instructions_Text.text = "Polish Shoes";
+                    if (Polish_Shoes.value)
                     {
-                        Instructions_Text.text = "Pack Lunch Bag";
-                        if (Lunch_Packed.value)
+                        Instructions_Text.text = "Pack Bags";
+                        if (Suitcase_Packed.value)
                         {
-                            Instructions_Text.text = "Pack Carry On";
-                            if (Carry_On_Packed.value)
+                            Instructions_Text.text = "Pack Lunch Bag";
+                            if (Lunch_Packed.value)
                             {
-                                Instructions_Text.text = "Leave for work";
+                                Instructions_Text.text = "Pack Carry On";
+                                if (Carry_On_Packed.value)
+                                {
+                                    Instructions_Text.text = "Leave for work";
+                                }
                             }
                         }
                     }
+
                 }
-                
+            }
+        }
+        else
+        {
+            Instructions_Text.text = "Pack Lunch";
+            if (Lunch_Packed.value)
+            {
+                Instructions_Text.text = "Leave";
             }
         }
     }

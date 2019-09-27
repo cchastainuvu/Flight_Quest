@@ -1,0 +1,9 @@
+Flight Simulation
+http://360.ael.aero/primera/b737/
+
+Trolley Dimensions
+W: 1 ft D: 2.6 ft H: 2.4 ft
+
+Flashlight Dimensions
+8.05" L x 2.02" W x 2.45" H
+.67 x .17 x .20

@@ -5,7 +5,13 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Prototype/Scenes/InFlightFire.unity
     guid: e5df3d8ab41da904e8c3238a256f800a
+  - enabled: 1
+    path: Assets/Scenes/Calendar.unity
+    guid: 667093f3e10620d40ae3da4a25bf37fe
+  - enabled: 1
+    path: Assets/Scenes/CrashPad.unity
+    guid: f87e496d17c5695449bf69ca50ce651d
   m_configObjects: {}
