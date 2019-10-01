@@ -1,0 +1,222 @@
+fileFormatVersion: 2
+guid: 72c6005071e33cc4c99f88e9e63084eb
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base 1
+    100004: Base 2
+    100006: Base 3
+    100008: Base 4
+    100010: Base 5
+    100012: Base 6
+    100014: Base 7
+    100016: Base1
+    100018: Base1 1
+    100020: Button
+    100022: Button 1
+    100024: Button 2
+    100026: Button 3
+    100028: Button 4
+    100030: Button 5
+    100032: Button 6
+    100034: Button1
+    100036: Button2
+    100038: Button3
+    100040: Button4
+    100042: Button5
+    100044: Dial
+    100046: Intercom 1
+    100048: //RootNode
+    100050: knob
+    100052: Lever
+    100054: Lever 1
+    100056: pCube193
+    100058: Reciever
+    100060: Switch
+    100062: Switch1
+    400000: Base
+    400002: Base 1
+    400004: Base 2
+    400006: Base 3
+    400008: Base 4
+    400010: Base 5
+    400012: Base 6
+    400014: Base 7
+    400016: Base1
+    400018: Base1 1
+    400020: Button
+    400022: Button 1
+    400024: Button 2
+    400026: Button 3
+    400028: Button 4
+    400030: Button 5
+    400032: Button 6
+    400034: Button1
+    400036: Button2
+    400038: Button3
+    400040: Button4
+    400042: Button5
+    400044: Dial
+    400046: Intercom 1
+    400048: //RootNode
+    400050: knob
+    400052: Lever
+    400054: Lever 1
+    400056: pCube193
+    400058: Reciever
+    400060: Switch
+    400062: Switch1
+    2100000: lambert1
+    2300000: Base
+    2300002: Base 1
+    2300004: Base 2
+    2300006: Base 3
+    2300008: Base 4
+    2300010: Base 5
+    2300012: Base 6
+    2300014: Base 7
+    2300016: Base1
+    2300018: Base1 1
+    2300020: Button 1
+    2300022: Button 2
+    2300024: Button 3
+    2300026: Button 4
+    2300028: Button 5
+    2300030: Button 6
+    2300032: Intercom 1
+    2300034: knob
+    2300036: Lever
+    2300038: Lever 1
+    2300040: pCube193
+    2300042: Reciever
+    3300000: Base
+    3300002: Base 1
+    3300004: Base 2
+    3300006: Base 3
+    3300008: Base 4
+    3300010: Base 5
+    3300012: Base 6
+    3300014: Base 7
+    3300016: Base1
+    3300018: Base1 1
+    3300020: Button 1
+    3300022: Button 2
+    3300024: Button 3
+    3300026: Button 4
+    3300028: Button 5
+    3300030: Button 6
+    3300032: Intercom 1
+    3300034: knob
+    3300036: Lever
+    3300038: Lever 1
+    3300040: pCube193
+    3300042: Reciever
+    4300000: Reciever
+    4300002: Base
+    4300004: Intercom
+    4300006: Base
+    4300008: Button
+    4300010: Base
+    4300012: Button
+    4300014: Base
+    4300016: Button
+    4300018: Base
+    4300020: Button
+    4300022: Base
+    4300024: Button
+    4300026: Base
+    4300028: Button
+    4300030: Lever
+    4300032: Base1
+    4300034: Lever
+    4300036: Base1
+    4300038: Base
+    4300040: knob
+    4300042: pCube193
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

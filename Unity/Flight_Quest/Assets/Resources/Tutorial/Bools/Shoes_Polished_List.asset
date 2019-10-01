@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae14817b556362345a9cb0aa0ab88464, type: 3}
+  m_Name: Shoes_Polished_List
+  m_EditorClassIdentifier: 
+  bools:
+  - {fileID: 11400000, guid: 492db94f70e9e34439c1fb2103f553a3, type: 2}
+  - {fileID: 11400000, guid: 9dddb4dbb51f71a40a9126c322688af4, type: 2}
+  - {fileID: 11400000, guid: 573f9930250e97b4dae5a7dca6240941, type: 2}
+  - {fileID: 11400000, guid: be2d8b87ffca59f46b819ac72e53761a, type: 2}
